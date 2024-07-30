@@ -1,8 +1,11 @@
 
 
 .bg-christ {
-  background: #183276;
-  color: #fff;
+  background: #13386d;
+  color: #C4DAD8;
+}
+.bg-christ>div{
+	font-weight: 500;
 }
 .christ-blue {
   color: #183276;
@@ -25,14 +28,15 @@
   /* font-weight: 600; */
 }
 .nk-btn:hover {
-  background-color: #402ef6;
+  background-color: #f77140f4;
+  color:black !important;
 }
 
 .nk-blue {
   color: #183276;
 }
 .nk-blue-bg {
-  background-color: #183276;
+  background-color:#13386d;
 }
 
 .nk-black {
@@ -52,8 +56,8 @@
 .nk-green {
   color: #2c9355;
 }
-.nk-green-bg {
-  background-color: #2c9355;
+.nk-yellow-bg {
+  background-color:#f1b940f7;
 }
 
 .nk-yello {
@@ -62,18 +66,22 @@
 .nk-yello-bg {
   background-color: #ebd543;
 }
+.textColorHour{
+	color:black;
+	font-weight: 600;
+}
 
 .nk-bg-1 {
-  background-color: #183276;
+  background-color: #000080;
 }
 .nk-bg-2 {
-  background-color: #256068;
+  background-color: #110101;
 }
 .nk-bg-3 {
-  background-color: #402ef6;
+  background-color: #F77748;
 }
 .nk-bg-4 {
-  background-color: #000000;
+  background-color: #4E2953;
 }
 .nk-bg-5 {
   background-color: #183276;
@@ -82,7 +90,7 @@
   background-color: #1140dc;
 }
 .nk-bg-7 {
-  background-color: #1c7464;
+  background-color: #EDB641;
 }
 .nk-bg-8 {
   background-color: #c85d20;
@@ -91,7 +99,7 @@
   background-color: #2c9355;
 }
 .nk-bg-10 {
-  background-color: #1d87c2;
+  background-color: #fa959a;
 }
 .nk-bg-11 {
   background-color: #5620c8;
@@ -165,8 +173,23 @@
 }
 .nk-bg-33
 {
-  background-color:#B5683C;
+  background-color:#13386d;
+  /* #B5683C */
 }
+#dates{
+	border-radius: 2%;
+}
+.AI,.CaPaFoIm{
+	margin-top:23px !important;
+	margin-inline:23px !important;
+}
+.border-bottom-custom {
+	border-bottom: 1px solid #fbfbfef0 !important; 
+	box-sizing: border-box !important;
+	padding-inline: 2% !important;
+	padding-block: 3% !important;
+  }
+  
 .pt-bold{
   font-weight:"bold";
   font-size: "50px";

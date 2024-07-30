@@ -23,7 +23,7 @@ export default function CallForPapers() {
           <div>
             <br />
             <br />
-            <h1>Call for Papers</h1>
+            <h1 >Call for Papers</h1>
             <br />
             <br />
           </div>
@@ -112,7 +112,7 @@ export default function CallForPapers() {
         </div> */}
 
 
-        <div className="col-md-12 col-12 m-0 p-3 bg-white h-100 ">
+        <div className="col-md-12 col-12 m-0 p-1 bg-white h-100 ">
           <br />
           <h3>Author's Instruction</h3>
           <p style={{ fontFamily: "Nunito" }}>Particularly we would like to ask the authors to apply Springer conference paper templates, which can be find in the below button</p>
@@ -150,16 +150,16 @@ export default function CallForPapers() {
       {/* important dates */}
       <div
         id="dates"
-        className="row m-0 p-0 text-light align-items-center nk-bg-7"
+        className="row text-light align-items-center nk-bg-7 CaPaFoIm"
       >
-        <div className="col-md-3 col-12 m-0 p-4 ">
+        <div className="col-md-3 col-12 m-0 p-4">
           <h2>Important Dates</h2>
         </div>
         <div
           className="col-md-9 col-12 m-0 p-4 nk-bg-1"
           style={{ fontFamily: "Nunito" }}
         >
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0  align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">
                 Last date for submission of Full Length paper
@@ -169,7 +169,7 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl">25 March 2023</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0 p-4 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Review Submission</h5>
             </div>
@@ -177,7 +177,7 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl">15 April 2023</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0 p-4 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Author Notification</h5>
             </div>
@@ -185,7 +185,7 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl">20 April 2023</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0 p-4 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Date for Registration</h5>
             </div>
@@ -193,7 +193,7 @@ export default function CallForPapers() {
               <h5 className="mt-4 fontControl">03 May 2023</h5>
             </div>
           </div>
-          <div className="row m-0 p-4 align-items-center">
+          <div className="row m-0 p-4 align-items-center border-bottom-custom">
             <div className="col m-0 p-0">
               <h5 className="mt-4 fontControl">Conference Date</h5>
             </div>

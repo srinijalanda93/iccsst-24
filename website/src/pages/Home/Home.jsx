@@ -101,13 +101,16 @@ export default function Home() {
             className="font-weight-bold"
             style={{ fontFamily: "Arial", fontSize: "1.3rem" }}
           >
-            ICCSST - 2023 <br />
+            ICCSST - 2025 <br />
             <div style={{ marginTop: "1rem" }}>
-              <span style={{ fontWeight: "600", fontSize: "1.7rem", marginTop: "1rem", color: "nk-blue-bg" }}>INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES
+              <span style={{ fontWeight: "600", fontSize: "1.7rem", marginTop: "1rem", color: "nk-blue-bg" }}>
+            INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES
             AND SUSTAINABLE TECHNOLOGIES</span></div>
           </h1>
           <div style={{ marginTop: "1rem" }}>
-            <h3 style={{ fontFamily: "Arial", fontSize: "1.2rem" }}>SULTANATE OF OMAN | REPUBLIC OF INDIA</h3>
+            <h3 style={{ fontFamily: "Arial", fontSize: "1.2rem",fontWeight:550 }}>
+              SULTANATE OF OMAN | REPUBLIC OF INDIA
+              </h3>
           </div>
         </div>
         <div className="col-md-6 col-12 m-0 p-0 py-1">
@@ -116,49 +119,50 @@ export default function Home() {
               <div className="row m-0 my-2 p-0 p-4  nk-blue-bg justify-content-between">
                 <div className="col m-0 p-0">
                   <h5 className="m-0 p-0">Start</h5>
-                  <p className="m-0 p-0 fs-3">08.05.2023</p>
+                  {/* Changing the data */}
+                  <p className="m-0 p-0 fs-3">05.06.2025</p>
                 </div>
                 <div className="col m-0 p-0 text-end">
                   <h5 className="m-0 p-0">End</h5>
-                  <p className="m-0 p-0 fs-3">09.05.2023</p>
+                  <p className="m-0 p-0 fs-3">06.06.2025</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="col-md-4 col-12 m-0 p-0">
-          <div className="row m-0 p-4 text-light nk-green-bg justify-content-center align-items-end text-center">
-            <div className="col-2 m-0 p-0">
+          <div className="row m-0 p-4 textColorHour nk-yellow-bg justify-content-center align-items-end text-center ">
+            <div className="col-2 m-0 p-0 ">
               <p>Days</p>
-              <h5 className="fs-3">{timerDays}</h5>
+              <h5 className="fs-5">{timerDays}</h5>
             </div>
             <div className="col-1 m-0 p-0">
-              <h5 className="fs-3">:</h5>
+              <h5 className="fs-5">:</h5>
             </div>
             <div className="col-2 m-0 p-0">
               <p>Hours</p>
-              <h5 className="fs-3">{timerHours}</h5>
+              <h5 className="fs-5">{timerHours}</h5>
             </div>
             <div className="col-1 m-0 p-0">
-              <h5 className="fs-3">:</h5>
+              <h5 className="fs-5">:</h5>
             </div>
             <div className="col-2 m-0 p-0">
               <p>Min</p>
-              <h5 className="fs-3">{timerMinutes}</h5>
+              <h5 className="fs-5">{timerMinutes}</h5>
             </div>
             <div className="col-1 m-0 p-0 ">
-              <h5 className="fs-3">:</h5>
+              <h5 className="fs-5">:</h5>
             </div>
             <div className="col-2 m-0 p-0">
               <p>Sec</p>
-              <h5 className="fs-3">{timerSeconds}</h5>
+              <h5 className="fs-5">{timerSeconds}</h5>
             </div>
           </div>
           <div className="row m-0 p-0 justify-content-end">
             <div className="col-md-8 col-12 m-0 p-0 ">
               <div className=" text-center border-0 m-0 my-2 p-0">
                 <div
-                  className="nk-blue-bg p-3 px-5 text-light nk-btn "
+                  className="nk-blue-bg p-3 px-5 text-light nk-btn fw-bold"
                   onClick={(e) => {
                     let path = `/callForPapers/mainpage`;
                     navigate(path);
